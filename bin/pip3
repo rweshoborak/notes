@@ -1,4 +1,4 @@
-#!/home/rwehobeter/stream/v1/bin/python3
+#!/home/rwehobeter/stream/v1/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
