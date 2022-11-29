@@ -23,8 +23,7 @@ tab1, tab2, tab3, tab4 = st.tabs(["Learning Context:", "Learning Materials", "As
 with tab1:
     st.header("Learning Context:")
     st.write(
-        "The course is based on classroom lectures, guided independent work, practical illustrations, assignments, and tests. The course is planned to be interactive and the emphasis will be on learning by doing.",
-        width=200)
+        "The course is based on classroom lectures, guided independent work, practical illustrations, assignments, and tests. The course is planned to be interactive and the emphasis will be on learning by doing.")
 
 with tab2:
     st.header("Learning Materials")
