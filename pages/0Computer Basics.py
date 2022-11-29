@@ -27,7 +27,7 @@ with st.expander("COMPUTER HARDWARE"):
             st.write("*: " + item)
 
         st.write("**CPU**")
-        st.write("")
+        st.write("pass")
     with col2:
         st.write("#### Software")
         st.write("These are the intangible components of a computer that can neither be touched nor felt.")
