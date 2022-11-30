@@ -90,4 +90,4 @@ with tab4:
             st.write(items)
 
 st.sidebar.header("Options")
-st.sidebar.selectbox("item",('K',"o","p"))
+st.sidebar.selectbox("item", ('K', "o", "p"))
