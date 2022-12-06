@@ -89,5 +89,4 @@ with tab4:
         for items in refs:
             st.write(items)
 
-st.sidebar.header("Options")
-st.sidebar.selectbox("item", ('K', "o", "p"))
+
