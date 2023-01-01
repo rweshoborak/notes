@@ -103,5 +103,46 @@ with st.expander(" MAIL MERGE"):
         st.write(item)
 
     st.write("#### Creating a recipient list: ")
-    st.write("On the mailing Tab, under the Mail Merge group, click _select recipients_ to chose a list from pre defined lists or create a list from scratch")
+    st.write(
+        "On the mailing Tab, under the Mail Merge group, click _select recipients_ to chose a list from pre defined lists or create a list from scratch")
+
+with st.expander("Insert "):
+    st.markdown("### Inserting Items in a document")
+    st.write("We can insert different objects into pur document using the insert tab")
+    st.write("Examples of objects:")
+    objects = ["Tables", "Images", "Wordart", "Equations", "Shapes", "Charts"]
+
+    for item in objects:
+        st.write("*:", item)
+
+    st.write("### Insert Tables")
+    st.write(" A table is an object that allows the user to display data in a tabular format.")
+    st.write("Tables can be created in Three major ways namely:")
+    table = ["Table by grid", "Table by wizard", "Table by drawing"]
+    for item in table:
+        st.write(": ", item)
+
+    st.write("#### By Grid")
+    st.write("The grid may be used to create a simple / basic table.")
+    st.write("For a basic table, click Insert > Table and move the cursor over the grid until you highlight the number of columns and rows you want.")
+    st.image("assets/image/grid table.png", caption="Creating a table using the Grid ")
+
+    st.write("#### By Insert Table")
+    st.write("For a larger table, or to customize a table, select Insert > Table > Insert Table.")
+    st.image("assets/image/insert table.png", caption="Creating a table using the insert table option")
+    st.write("On clicking the insert table option an insert Table dialog box appears")
+    st.image("assets/image/insertTable.png", caption="Selecting column and width")
+    st.write("""From the dialog box, you can set the number of rows and columns of your table. This option also allows you to set the auto fit tables behaviour
+    such as  Fixed column width , auto fit content and auto column width.""")
+
+    st.write("#### By Drawing")
+    st.write("You can also draw a table, select Insert > Table > Draw table.")
+    st.image("assets/image/insert table.png", caption="Drawing your own table")
+    st.write("""
+    once the draw table option is selected, your pointer will change to look like a pencil, now yoo are ready to draw tables 
+    of your choice. This is a more flexible option allowing you to design the tables in many different ways.
+    """)
+
+    st.markdown("## Inserting Picture into a word document:")
+    st.write("To insert a picture, click the insert tab then select _Picture_ from ")
 
