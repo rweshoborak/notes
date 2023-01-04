@@ -1,3 +1,5 @@
+import ssl
+
 import streamlit as st
 
 st.set_page_config(
@@ -17,6 +19,8 @@ with st.expander("COMPUTER HARDWARE"):
     with col1:
         st.write("#### Hardware")
         st.write("These are the tangible parts of a computer that can be physically seen touched and felt.")
+        st.write(
+            """Hardware refers to the physical components of an ICT system. It includes devices such as computers, tablets, smartphones, printers, scanners, servers, and other types of electronic equipment. Hardware is typically classified according to its size and capabilities. For example, a personal computer is a type of hardware that is designed for use by an individual, while a server is a type of hardware that is used to store and manage data for a network of computers.""")
         computer_hardware = [
             "CPU: Central Processing Unit",
             "Input Unit",
@@ -29,6 +33,8 @@ with st.expander("COMPUTER HARDWARE"):
     with col2:
         st.write("#### Software")
         st.write("These are the intangible components of a computer that can neither be touched nor felt.")
+        st.write(
+            """Software refers to the programs and applications that run on hardware and enable it to perform specific tasks. There are many different types of software, including operating systems, which manage the hardware and provide a platform for other software to run on; productivity tools, such as word processors and spreadsheets; and specialized software for tasks like graphic design, video editing, and gaming.""")
         computer_software = [
             "System Software",
             "Application Software",
@@ -41,6 +47,25 @@ with st.expander("COMPUTER HARDWARE"):
     #     input_unit = ["Key Board :keyboard:", "Mouse ", "Mic :mic:", "..."]
     #     for item in input_unit:
     #         st.write("-: " + item)
+
+with st.expander("Data"):
+    st.title("Data")
+    st.write(
+        """Data refers to information that is processed, stored, and transmitted using ICT. Data can take many forms, such as text, images, audio, and video. It is typically stored in digital format, and it can be accessed and manipulated using software. Data can be organized and structured in various ways, such as in a database or spreadsheet.""")
+
+with st.expander("Networking"):
+    st.title("Networking")
+    st.write(
+        """Networking refers to the practice of connecting computers and other devices together to facilitate communication and the sharing of resources. There are many different types of networks, ranging from small, local networks that connect devices in a single location, to large, global networks such as the Internet, which connects devices all around the world. Networking allows devices to exchange data, access shared resources, and communicate with each other.""")
+
+
+with st.expander("Cloud"):
+    st.title("CLOUD")
+    st.write("""The Cloud refers to a network of servers that can be accessed remotely over the Internet to store, process, and transmit data, rather than relying on local hardware. Cloud computing allows users to access data and resources from any device with an Internet connection, without having to store the data locally on their own device. Instead, the data is stored on servers in a remote location, and users can access it as needed.""")
+
+with st.expander("Cybersecurity"):
+    st.title("Cybersecurity")
+    st.write("""Cybersecurity refers to measures taken to protect ICT systems and networks from attacks, unauthorized access, and data breaches. Cybersecurity includes practices such as password protection, encryption, and the use of firewalls and antivirus software to prevent unauthorized access to data and systems. Cybersecurity is important because ICT systems and networks are vulnerable to attacks from hackers and other cybercriminals, who may try to steal or damage data, or disrupt the operation of the system.""")
 
 with st.expander("CPU"):
     st.write("#### The CPU consists of:")
