@@ -204,24 +204,3 @@ with st.expander("Other Resources "):
     
     5. Tutorials Point: Is a comprehensive online learning platform that offers a wide range of tutorials and resources for Excel and other software programs.
     ''')
-
-# Create a slider to navigate between slides
-slide_index = st.st.slider("Slide", min_value=0, max_value=2)
-
-# Create the first slide
-if slide_index == 0:
-    with st.beta_container():
-        st.markdown("## Slide 1")
-        st.markdown("This is the content for slide 1")
-
-# Create the second slide
-if slide_index == 1:
-    with st.beta_container():
-        st.markdown("## Slide 2")
-        st.markdown("This is the content for slide 2")
-
-# Create the third slide
-if slide_index == 2:
-    with st.beta_container():
-        st.markdown("## Slide 3")
-        st.markdown("This is the content for slide 3")
