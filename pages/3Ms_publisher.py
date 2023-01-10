@@ -224,3 +224,24 @@ with st.expander("Working with Mail Merge"):
     st.markdown('4. Click "OK" to complete the merge process.')
 
     st.markdown('By working with mail merge in Publisher, you can create personalized documents quickly and efficiently. Mail merge is a powerful tool for conveying information and ideas, and Publisher provides a range of tools and options for working with it effectively.')
+
+with st.expander("Printing and Exporting Documents"):
+    st.title('Printing and Exporting Documents in Microsoft Publisher')
+
+    st.markdown('Publisher provides a range of tools and options for printing and exporting documents to other formats. Here is an overview of how to do this in Publisher:')
+
+    st.title('Printing Documents')
+    st.markdown('To print a document in Publisher, follow these steps:')
+    st.markdown('1. Open the document in Publisher and click the "File" tab.')
+    st.markdown('2. In the "Info" group, click the "Print" button to open the "Print" window.')
+    st.markdown('3. In the "Print" window, choose the printer, page range, and other options for printing.')
+    st.markdown('4. Click "Print" to send the document to the printer.')
+
+    st.title('Exporting Documents to Other Formats')
+    st.markdown('To export a document in Publisher to another format, follow these steps:')
+    st.markdown('1. Open the document in Publisher and click the "File" tab.')
+    st.markdown('2. In the "Save As" group, click the "Save As" button to open the "Save As" window.')
+    st.markdown('3. In the "Save As" window, choose the format you want to export to, such as "PDF," "XPS," or "JPG."')
+    st.markdown('4. Click "Save" to export the document to the chosen format.')
+
+    st.markdown('By printing and exporting documents in Publisher, you can share your documents with others in a variety of ways. Printing and exporting are important tools for conveying information and ideas, and Publisher provides a range of tools and options for working with them effectively.')
